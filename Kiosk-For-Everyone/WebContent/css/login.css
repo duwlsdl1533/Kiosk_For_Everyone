@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@font-face{
+	src : url("../css/fonts/UhBee MiMi.ttf") format('truetype');
+	font-family : "UhBee MiMi";
+}
+body{
+		background-color : #f6e6ac;
+		font-size : 30px;
+ 		font-family:"UhBee MiMi";
+ 		color : #70251a;
+ 		text-align: center;
+}
+
+h1{
+ 	font-size : 50px;
+ 	font-family:"UhBee MiMi";
+ 	color : #70251a;
+ }
+ 
+h2{
+ 	font-size : 50px;
+ 	font-family:"UhBee MiMi";
+ 	color : #70251a;
+ }
+#text{
+	background : transparent ;
+	border : hidden;
+}
+table { 
+	border-collapse: collapse; 
+	background: transparent; 
+	width: 600px;
+	height : 300px; 
+	margin-left: auto; 
+	margin-right: auto;
+} 
+tr { 
+	border : hidden;
+	text-align: center; /* left, center, right */
+ }
+ td { 
+	border : hidden;
+	text-align: center; /* left, center, right */
+	font-size : 50px;
+	font-weight : bold;
+	font-family:"UhBee MiMi";
+	color : #70251a;
+	width: 600px;
+ }
+#loginbt{
+		width :200px;
+		height :60px;
+		background-color : #9a7557;
+		border : none;
+		color : #FFFFFF;
+		box-shadow : 0 4px 16px rgba(102,44,29, 0.3);
+		font-size : 50px;
+		font-weight : bold;
+		border-radius : 20px;
+		font-family:"UhBee MiMi";
+	 	/*position : relative;*/
+		top : 50%;
+		left : 50%;
+		/* transform : traslate(-50%,-50%);  */
+		transition : 0.1s;
+}
+#loginbt:focus{
+	outline:0;
+}
+#loginbt:hover{
+	background-color : rgba(102,44,29, 0.8);
+	cursor : pointer;
+	box-shadow : 0 2px 4px rgba(102,44,29, 0.7);
+}
+#nomember{
+		width :200px;
+		height :60px;
+		background-color : #9a7557;
+		border : none;
+		color : #FFFFFF;
+		box-shadow : 0 4px 16px rgba(102,44,29, 0.3);
+		font-size : 50px;
+		font-weight : bold;
+		border-radius : 20px;
+		font-family:"UhBee MiMi";
+	 	/*position : relative;*/
+		top : 50%;
+		left : 50%;
+		/* transform : traslate(-50%,-50%);  */
+		transition : 0.1s;
+}
+#nomember:focus{
+	outline:0;
+}
+#nomember:hover{
+	background-color : rgba(102,44,29, 0.8);
+	cursor : pointer;
+	box-shadow : 0 2px 4px rgba(102,44,29, 0.7);
+}

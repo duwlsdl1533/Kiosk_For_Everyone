@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@font-face{
+	src : url("../css/fonts/UhBee MiMi.ttf") format('truetype');
+	font-family : "UhBee MiMi";
+}
+body{
+		background-color : #ffeeaa;
+		text-align: center;
+}
+table { 
+	border-collapse: collapse; 
+	background: transparent;
+	/* width: 600px; height : 600; */
+	text-align: center;
+} 
+tr { 
+	border : hidden;
+	text-align: center; /* left, center, right */
+ }
+ td { 
+	border : hidden;
+	text-align: center; /* left, center, right */
+	font-size : 30px;
+	font-weight : bold;
+	font-family:"UhBee MiMi";
+	color : #70251a;
+	text-align: center;
+ }
+ div{
+ 	text-align: center;
+ }
+ #cartList{
+ 	font-size : 30px;
+	font-weight : bold;
+	font-family:"UhBee MiMi";
+	color : #70251a;
+	text-align: center;
+ }
+#pay_card{
+	width :130px;
+		height :50px;
+		background-color : #9a7557;
+		border : none;
+		color : #FFFFFF;
+		box-shadow : 0 4px 16px rgba(102,44,29, 0.3);
+		font-size : 25px;
+		font-weight : bold;
+		border-radius : 20px;
+		font-family:"UhBee MiMi";
+	 	/*position : relative;*/
+		top : 50%;
+		left : 50%;
+		/* transform : traslate(-50%,-50%);  */
+		transition : 0.1s;
+}
+#pay_samsung{
+	width :200px;
+		height :50px;
+		background-color : #9a7557;
+		border : none;
+		color : #FFFFFF;
+		box-shadow : 0 4px 16px rgba(102,44,29, 0.3);
+		font-size : 25px;
+		font-weight : bold;
+		border-radius : 20px;
+		font-family:"UhBee MiMi";
+	 	/*position : relative;*/
+		top : 50%;
+		left : 50%;
+		/* transform : traslate(-50%,-50%);  */
+		transition : 0.1s;
+}
+button:hover{
+	background-color : rgba(102,44,29, 0.8);
+	cursor : pointer;
+	box-shadow : 0 2px 4px rgba(102,44,29, 0.7);
+}
+h1{
+ 	font-size : 50px;
+ 	font-family:"UhBee MiMi";
+ 	color : #70251a;
+ }

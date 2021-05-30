@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@font-face{
+	src : url("../css/fonts/UhBee MiMi.ttf") format('truetype');
+	font-family : "UhBee MiMi";
+}
+body{
+		background-color : #ffeeaa;
+		text-align: center;
+}
+body { text-align: center; /* Quirks Mode 를 위한 가운데 정렬 */ }
+
+h1{
+ 	font-size : 50px;
+ 	font-family:"UhBee MiMi";
+ 	color : #70251a;
+ }
